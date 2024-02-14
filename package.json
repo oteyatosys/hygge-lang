@@ -1,0 +1,25 @@
+{
+  "name": "hygge-lang",
+  "displayName": "Hygge Lang",
+  "description": "Syntax highlighting for hygge lang",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "hygge",
+      "aliases": ["Hygge", "hygge"],
+      "extensions": [".hyg"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "hygge",
+      "scopeName": "source.hyg",
+      "path": "./syntaxes/hygge.tmLanguage.json"
+    }]
+  }
+}
