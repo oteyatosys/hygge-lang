@@ -6,20 +6,34 @@
   "engines": {
     "vscode": "^1.86.0"
   },
+  "publisher": "oteyatosys",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oteyatosys/hygge-lang.git"
+  },
   "categories": [
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "hygge",
-      "aliases": ["Hygge", "hygge"],
-      "extensions": [".hyg"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "hygge",
-      "scopeName": "source.hyg",
-      "path": "./syntaxes/hygge.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "hygge",
+        "aliases": [
+          "Hygge",
+          "hygge"
+        ],
+        "extensions": [
+          ".hyg"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "hygge",
+        "scopeName": "source.hyg",
+        "path": "./syntaxes/hygge.tmLanguage.json"
+      }
+    ]
   }
 }
