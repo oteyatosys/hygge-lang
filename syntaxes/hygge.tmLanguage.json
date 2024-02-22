@@ -47,7 +47,7 @@
 		},
 		"functions": {
 			"name": "support.function.hygge",
-			"match": "\\b(readInt|readFloat|print|println|assert)\\b"
+			"match": "\\b(readInt|readFloat|print|println|assert|sqrt)\\b"
 		},
 		"comments": {
 			"name": "comment.line.double-slash.hygge",
@@ -76,7 +76,7 @@
 		},
 		"operators": {
 			"name": "keyword.operator.hygge",
-			"match": "\\b(or|and|not|[=<+*])\\b"
+			"match": "\\b(or|and|not|xor|<=|>=|&&|\\|\\||[=<>+*/%])\\b"
 		},
 		"constants": {
 			"name": "constant.language.hygge",
