@@ -8,6 +8,9 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#modifiers"
+		},
+		{
 			"include": "#typeDefinitions"
 		},
 		{
@@ -56,8 +59,12 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.hygge",
-				"match": "\\b(let|if|then|else)\\b"
+				"match": "\\b(let|if|then|else|do|while|for)\\b"
 			}]
+		},
+		"modifiers": {
+			"name": "storage.modifier.hygge",
+			"match": "\\b(mutable)\\b"
 		},
 		"strings": {
 			"name": "string.quoted.double.hygge",
